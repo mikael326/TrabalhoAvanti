@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalho Capacita Brasil - Portfólio</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            overflow-x: hidden;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #0779e4 3px solid;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            text-align: center;
+            font-size: 2.5em;
+        }
+
+        header nav {
+            display: flex;
+            justify-content: center;
+        }
+
+        header nav ul {
+            list-style-type: none; 
+            margin: 0; 
+            padding: 0;
+        }
+
+         header nav ul li { 
+            float: left; 
+            align-content: center;
+        }
+
+        header nav ul li a { 
+            display: block; 
+            color: white;
+            text-align: center; 
+            padding: 14px 16px; 
+            text-decoration: none;
+        }
+
+        header nav ul li a:hover { 
+            background-color: #111; 
+        }
+
+        .profile {
+            text-align: center;
+            margin: 30px 0;
+        }
+        .profile img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+        .section {
+            background: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .section h2 {
+            color: #333;
+            border-bottom: 2px solid #0779e4;
+            padding-bottom: 10px;
+        }
+        .project {
+            margin-bottom: 20px;
+            padding: 15px;
+            background: #f9f9f9;
+            border-radius: 5px;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        .contact-links {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        .contact-links a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 1.2em;
+        }
+        @media(max-width: 768px) {
+            .container {
+                width: 95%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Mikael Costa Mendes</h1>
+            <p>Desenvolvedor Web</p>
+            <nav>
+                <ul>
+                    <li><a href="#sobremim">Sobre Mim</a></li>
+                    <li><a href="#projetos">Projetos</a></li>
+                    <li><a href="#experiencia">experiência</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="profile">
+            <img src="https://scontent.ffor42-1.fna.fbcdn.net/v/t39.30808-6/356659788_2400633966783599_4596433683943968971_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeGZhe_kCvTVV2GCa7AJDVipq4QNXr3YWSKrhA1evdhZIuW2zP6VMXsD10nhAJoLy-UodivmHGci7JxG_r9bsD9P&_nc_ohc=efvm2-mSCT8Q7kNvgG3Q0Ri&_nc_zt=23&_nc_ht=scontent.ffor42-1.fna&_nc_gid=AFA10gOpJTfAPKNEJV8Smns&oh=00_AYBI2sW11YeEuWvh5OXW_DVeQdyv5R8sPpvdkjEozW76Zw&oe=674158F6" alt="Sua Foto de Perfil">
+        </div>
+
+        <div class="section" id="sobremim">
+            <h2>Sobre Mim</h2>
+            <p>Sou tecnólogo em Sistemas para Internet pela Unicesumar, onde aprendi desenvolvimento web. Além disso, realizei cursos livres, incluindo um focado em desenvolvimento com C Sharp. Tenho certificados que abrangem desde informática básica até avançada. Gosto de aprender continuamente e aplicar meus conhecimentos para resolver problemas de forma prática e eficiente. Estou sempre em busca de novas oportunidades para crescer e contribuir de maneira positiva.</p>
+        </div>
+
+        
+
+        <div class="section" id="projetos">
+            <h2>Projetos</h2>
+            <div class="project">
+                <h3>Calculadora de taxas maquininha da PagSeguro</h3>
+                <p>Calculadora simples com 3 opções, débito,crédito à vista e crédito parcelado. onde é possível saber quanto cobrar para receber um valor para suprir as taxas, também é possível saber quanto irá receber sem repassar as taxas.</p>
+                <a href="https://mikael326.github.io/calculadora-taxas/" target="_blank">Ver Projeto</a>
+            </div>
+            <div class="project">
+                <h3>e-commerce digital store.</h3>
+                <p>front-end de um e-commerce feito com react.</p>
+                <a href="https://digital-store-five-zeta.vercel.app/" target="_blank">Ver Projeto</a>
+            </div>
+        </div>
+
+        <div class="section" id="experiencia">
+            <h2>Experiência</h2>
+            <div class="project">
+                <h3>Assistente Administrativo e Operacional de Padaria - Padaria & comércio do tim</h3>
+                <p>2016-atualmente</p>
+                <p>Responsável pela administração financeira, gestão de estoque, operação de caixa e apoio às atividades de produção em estabelecimento de panificação"</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="contact-links">
+            <a href="https://www.linkedin.com/in/mikael-mendes-994122144/" target="_blank">LinkedIn</a>
+            <a href="https://github.com/mikael326" target="_blank">GitHub</a>
+        </div>
+        <p>&copy; 2024 Mikael. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
